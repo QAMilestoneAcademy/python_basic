@@ -1,3 +1,4 @@
+#Checkout to see indexing -http://pythontutor.com/live.html#mode=edit
 my_list=["paper","pen",2,"pencil"]
 # # print(my_list)
 print("length of list", len(my_list))
@@ -60,8 +61,10 @@ if "apple" in thislist_new and "banana" in thislist_new:
 else:
     print("what is ")
 
-# #splitting string to listt
+# #splitting string to list
 student_grade=input("enter number of 4 students separated by ,")
 print(student_grade)
 student_grade_list=student_grade.split(",")
 print(student_grade_list)
+
+
