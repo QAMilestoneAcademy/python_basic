@@ -2,6 +2,7 @@
 #Convert the type to int
 #Store sum of numbers in other variable
 #Divide the sum by 3 to get average of numbers
+#Please share your code o code share once u run it
 num1=int(input("Enter number 1: "))
 num2=int(input("Enter number 1: "))
 num3=int(input("Enter number 1: "))

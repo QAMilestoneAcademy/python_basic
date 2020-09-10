@@ -9,5 +9,5 @@
 #Configure Remote Github repo URL
 
 #To checkin code in github
-#Perform commit
+#Perform commit(make sure u enter commit message)
 #Perform Push
