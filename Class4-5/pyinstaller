@@ -1,0 +1,11 @@
+#install pyinstaller
+pip install pyinstaller
+
+#create package using following command
+#On terminal, Go to directory in which program is there
+Example:
+cd C:\PythonForBeginners\python_basic\Projects
+
+#Give command like below
+1) pyinstaller --onefile  project_minicalculator.py
+
