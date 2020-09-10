@@ -23,3 +23,8 @@ for number in list(range(1,5)):
     my_empty_list.append(square)
 print(my_empty_list)
 
+
+#iterating over string
+for char in "apple":
+    print(char)
+    
