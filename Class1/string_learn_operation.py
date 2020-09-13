@@ -1,9 +1,22 @@
-name="Anu"
-#print(name)
+name="Anu"#string
+# print(name)
+# #concatenation--add two strings
+# print("hello " + "anu")
+print("hello " +name)
 
-print("hello "+ name)
+age="10"
+print(age+"2")
 
-age="11"
-print("11"+"11")
-print(3*name)
-print(3*age)
+my_age=10
+print(my_age+2)
+#
+# age=10
+# print("I am old : "+ str(age))
+
+#
+# print("hello "+ name)
+#
+# age="11"
+# print("11"+"11")
+# print(3*name)
+# print(3*age)

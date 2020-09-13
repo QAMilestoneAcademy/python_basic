@@ -1,8 +1,10 @@
 ##One time activity
 #Create user account in Git
+github.com
 #Create repository & take note of URL
 #Window
 #Download git & install
+https://git-scm.com/downloads
 #On Mac
 #Install homebrew
 #Enable VCS in pycharm project
