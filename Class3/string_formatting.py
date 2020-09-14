@@ -16,8 +16,9 @@ love = input("What do you love doing?: ")
 
 # Create output text
 
-string = "Your name is {} and you are {} years old. You live in {} and you love {}"
-output = string.format(name, age, city, love)
+my_string = "Your name is {} and you are {} years old. You live in {} and you love {}"
+output=my_string.format(name,age,city,love)
 
 # Print output to screen
 print(output)
+
