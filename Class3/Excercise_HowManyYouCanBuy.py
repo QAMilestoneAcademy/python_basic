@@ -9,7 +9,6 @@
 # print the output like below using string format:
 # Hi anu.Your product is sofa.Price of each product is 200.You have total money 700.Hence you can bring 3 number of product sofa.You will be left with money 100
 
-
 name=input("Please enter your name: ")
 product=input("Please enter product you want to buy: ")
 unitprice = input("Please enter unit price of product: ")
