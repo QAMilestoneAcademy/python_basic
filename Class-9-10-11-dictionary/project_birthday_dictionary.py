@@ -16,8 +16,8 @@ else:
     print("We do not have that birthday information.")
     add_birthday=input("Would you like to add Birthday in the list?")
     if add_birthday in "Yes" or "yes":
-        name_friend=input("Add name of your friend \t")
-        birth_date=input("Add birthday date\t")
+        name_friend=input("Add name of your friend ")
+        birth_date=input("Add birthday date ")
         Birthdays.update({name_friend: birth_date})
         print("updated dict:\t", Birthdays)
     else:

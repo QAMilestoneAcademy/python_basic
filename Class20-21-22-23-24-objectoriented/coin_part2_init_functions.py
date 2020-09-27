@@ -29,25 +29,38 @@ class Pound:
     def __del__(self):
         print("coin spent")
 
-coin1=Pound(rare=True)
-coin2=Pound()
-print("coin1",coin1.value)
-print("coin2",coin2.value)
-
-print("coin1",coin1.color)
-
-print("coin2",coin2.color)
-#apply rust on coin1
+coin1=Pound()
+print(coin1.color)
 coin1.rust()
-
-print("coin1 rusted",coin1.color)
-
-#apply clean on coin1
+print(coin1.color)
 coin1.clean()
-
-print("coin1 clean",coin1.color)
-#coin before flip
+print(coin1.color)
 print(coin1.heads)
-
 coin1.flip()
 print(coin1.heads)
+coin2=Pound(rare=True)
+
+
+#
+# coin1=Pound(rare=True)
+# coin2=Pound()
+# print("coin1",coin1.value)
+# print("coin2",coin2.value)
+#
+# print("coin1",coin1.color)
+#
+# print("coin2",coin2.color)
+# #apply rust on coin1
+# coin1.rust()
+#
+# print("coin1 rusted",coin1.color)
+#
+# #apply clean on coin1
+# coin1.clean()
+#
+# print("coin1 clean",coin1.color)
+# #coin before flip
+# print(coin1.heads)
+#
+# coin1.flip()
+# print(coin1.heads)

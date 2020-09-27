@@ -1,20 +1,20 @@
 #boolean
 i=True
-k=False
+j=False
 
-#Comparison operators
+#
+# #Comparison operators
 print(32>24)
 print(24>32)
 print(7==7)
 print(6!=7)
 print(24<=32)
 print(32>=24)
-
-age=32
-print(age==34)
+#
+# age=32
+# print(age==34)
 
 # in operator
-name="Siyona"
+name="Ashish"
 print("d" in name)
-name2="Tazine"
-print("d" not in name2)
+print("A" not in name)

@@ -1,12 +1,12 @@
-#Global -Local -two types- only functions can create local scope
-# a=100
+# #Global -Local -two types- only functions can create local scope
+#a=100#global
 #
 # def f1():
 #     print(a)
 #
 # def f2():
 #     print(a)
-#
+# #
 # f1()
 # f2()
 #
@@ -25,7 +25,7 @@
 #
 # #Define a inside function 1 & function 2 - both get there local variable
 # def f1():
-#     a = 100
+#     a = 100#local
 #     print(a)
 #
 # def f2():
@@ -40,13 +40,13 @@
 # a=70 #global
 #
 # def f1():
-#     a = 100
+#     a = 100#local
 #     print(a)
 #
 # def f2():
-#     a=50
+#     a=50#local
 #     print(a)
-# # # #Each function by default pick there local variable & not global one
+# # # # #Each function by default pick there local variable & not global one
 # f1()
 # f2()
 

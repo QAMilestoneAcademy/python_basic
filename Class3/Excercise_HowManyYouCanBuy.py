@@ -15,7 +15,7 @@ unitprice = input("Please enter unit price of product: ")
 totalMoney = input("Please enter how much money you have: ")
 quantity = int(totalMoney)//int(unitprice)
 money_left=int(totalMoney)%int(unitprice)
-
+print()
 print("Hi {}.Your product is {}."
      "Price of each product is {}."
      "You have total money {}."

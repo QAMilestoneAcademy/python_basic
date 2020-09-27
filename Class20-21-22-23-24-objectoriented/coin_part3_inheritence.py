@@ -30,13 +30,11 @@ class Coin:
         choice = random.choice(heads_options)
         self.heads = choice
 
-
 class Pound(Coin):
     def __init__(self):
         data={"original_value":1.00,"clean_color":"gold","rusty_color":"greenish"
               ,"num_edges":1,"diameter":22.5,"thickness":3.15,"mass":9.5}
         super().__init__(**data)
-
 one_pound_coin=Pound()
 print(one_pound_coin.color)
 one_pound_coin.rust()

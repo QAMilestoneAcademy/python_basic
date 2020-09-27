@@ -15,18 +15,14 @@ if choice in film:
    else:
        age = int(input("How old are you ? : ").strip())
        if age >= film[choice]["age"]:
-           no_seats = film[choice]["seats"]
-           print("no seats left {} \n".format(no_seats))
+           no_seats =film[choice]["seats"]
+           print("number of seats left {} \n".format(no_seats))
            a = int(input("Enter number of seats: "))
-           if no_seats > 0:
-               if a > no_seats:
-                   print("Enter less than or equal to the no of seats available !\n")
-               else:
-                   no_seats = no_seats - a
-                   film[choice]["seats"] = no_seats
-                   # print("no. of seats left {}: \n ".format(no_seats))
-                   print("Enjoyyyy the movie! \n")
 
+           if a > no_seats:
+                print("Enter less than or equal to the no of seats available !\n")
+           else:
+                print("Enjoyyyy the movie !\n")
        else:
            print("You are too young to see this movie ! Bye !\n")
 

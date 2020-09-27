@@ -60,6 +60,8 @@ class Two_Pence(Coin):
                 "mass": 7.12,
                 }
         super().__init__(**data)
+one_pound_coin=Two_Pence()
+print(one_pound_coin.color)
 class Five_Pence(Coin):
     def __init__(self):
         data = {"original_value": 0.05,
@@ -71,11 +73,12 @@ class Five_Pence(Coin):
                 "mass": 3.25,
                 }
         super().__init__(**data)
-    #polymorphism - same function name - different versions/forms of itself.
-    #Here we override original rust method in parent class to define new clean & rust colors
+#     #polymorphism - same function name - different versions/forms of itself.
+#     #Here we override original rust method in parent class to define new clean & rust colors
     def rust(self):
         self.color=self.clean_color
 
+#
 class Ten_Pence(Coin):
     def __init__(self):
         data = {"original_value":0.10,
@@ -144,15 +147,16 @@ class Two_Pound(Coin):
                 "mass": 12.00,
                 }
         super().__init__(**data)
-#Generate 8 different coins !!
+
+# #Generate 8 different coins !!
 coins=[One_Pence(),Two_Pence(),Five_Pence(),Ten_Pence(),Twenty_Pence(),Fifty_Pence(),One_Pound(),Two_Pound()]
-for coin in coins:
-    arguments = [coin, coin.color, coin.value, coin.diameter, coin.thickness,
-                 coin.num_edges, coin.mass]
-    print("########################################################")
-    my_string = "{} - color: {}, value:{}, diameter(mm):{}, thickness(mm):{}, number of edges:{}, mass(g):{}".format(
-        *arguments)
-    print(my_string)
-    print("*********************************************************************************************")
-
-
+# for coin in coins:
+#     arguments = [coin, coin.color, coin.value, coin.diameter, coin.thickness,
+#                  coin.num_edges, coin.mass]
+#     print("########################################################")
+#     my_string = "{} - color: {}, value:{}, diameter(mm):{}, thickness(mm):{}, number of edges:{}, mass(g):{}".format(
+#         *arguments)
+#     print(my_string)
+#     print("*********************************************************************************************")
+#
+#
