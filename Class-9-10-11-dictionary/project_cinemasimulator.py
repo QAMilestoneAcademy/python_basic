@@ -8,14 +8,17 @@ choice = input(
    "\n Shrek \n Mission Impossible 2 \n "
    "Endgame \n Infinity War "
    "\n Press enter to exit : ").strip().title()
+
+
 if choice in film:
+
    if film[choice]["seats"] == 0:
        print("sorry it is sold out \n")
 
    else:
        age = int(input("How old are you ? : ").strip())
        if age >= film[choice]["age"]:
-           no_seats =film[choice]["seats"]
+           no_seats= film[choice]["seats"]
            print("number of seats left {} \n".format(no_seats))
            a = int(input("Enter number of seats: "))
 

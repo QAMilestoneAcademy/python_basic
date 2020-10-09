@@ -1,13 +1,12 @@
 import turtle
-import time
-
+s=turtle.Screen()
 t=turtle.Turtle()
-
-turtle.bgcolor("yellow")
-t.pencolor("green")
-
+s.bgcolor("cyan")
+t.pencolor("yellow")
+t.width(10)
+t.speed(9)
 for i in range(50,100,10):
-  t.circle(i)
+ t.circle(i)
+s.exitonclick()
 
 
-time.sleep(10)

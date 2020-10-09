@@ -1,3 +1,4 @@
-name="siyona"
-age=11
-print("my name is {}.my age is {}".format(name,age))
+
+my_dict={}
+my_dict[1]=4
+print(my_dict)

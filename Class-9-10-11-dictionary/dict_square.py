@@ -6,13 +6,3 @@ for i in range(1,n+1):
    d[i]=i*i
 
 print(d)
-
-
-
-
-
-#
-# for x in range(1,n+1):
-#     d[x]=x*x
-#
-# print("dictionary for first {} number & squares".format(n),d)

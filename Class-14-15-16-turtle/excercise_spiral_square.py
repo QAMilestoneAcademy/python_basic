@@ -2,8 +2,6 @@
 # Spiral Square Outside In and Inside Out
 # using Turtle Programming
 import turtle
-import time
-
 s = turtle.Screen()
 s.bgcolor("light green")
 s.title("Spiral Square")
@@ -18,12 +16,7 @@ while size<=300:
         t.rt(90)
         size = size + 25
 t.end_fill()
+s.exitonclick()
 
-# size=100
-# while size<=300:
-#     for i in range(0,10):
-#         t.fd(size)
-#         t.rt(90)
-#         size=size+25
 
-time.sleep(1)
+

@@ -150,13 +150,13 @@ class Two_Pound(Coin):
 
 # #Generate 8 different coins !!
 coins=[One_Pence(),Two_Pence(),Five_Pence(),Ten_Pence(),Twenty_Pence(),Fifty_Pence(),One_Pound(),Two_Pound()]
-# for coin in coins:
-#     arguments = [coin, coin.color, coin.value, coin.diameter, coin.thickness,
-#                  coin.num_edges, coin.mass]
-#     print("########################################################")
-#     my_string = "{} - color: {}, value:{}, diameter(mm):{}, thickness(mm):{}, number of edges:{}, mass(g):{}".format(
-#         *arguments)
-#     print(my_string)
-#     print("*********************************************************************************************")
-#
-#
+for coin in coins:
+    arguments = [coin, coin.color, coin.value, coin.diameter, coin.thickness,
+                 coin.num_edges, coin.mass]
+    print("########################################################")
+    my_string = "{} - color: {}, value:{}, diameter(mm):{}, thickness(mm):{}, number of edges:{}, mass(g):{}".format(
+        *arguments)
+    print(my_string)
+    print("*********************************************************************************************")
+
+

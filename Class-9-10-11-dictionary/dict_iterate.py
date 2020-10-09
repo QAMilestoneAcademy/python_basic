@@ -1,13 +1,27 @@
 # # Iterate over dictionaries using for loops
 d = {'x': 10, 'y': 20, 'z': 30}
 
-#
-# for element in d.items():
-#     print(element)
+# for dict_key,dict_val in d.items():
+#     print(dict_key)
+#     print(dict_val)
+m_dict={}
+m_dict[1]=4
+m_dict[2]=8
+print(m_dict)
+
+
+# for dict_key,dict_val in d.items():
+#     print(dict_key)
+#     print(dict_val)
+
+# # my_tuple=(1,2,"anu")
+# my_tuple=('x',10)
+# my_key,my_value=('x',10)
+# print(my_key,my_value)
+
 # #
-for dict_key, dict_value in d.items():
-     print(dict_key)
-     print(dict_value)
+# for dict_key, dict_value in d.items():
+#      print(dict_key,dict_value)
 
 #
 # # # Generate and print a dictionary that contains a number in the form (x, x*x)

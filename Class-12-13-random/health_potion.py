@@ -22,8 +22,8 @@ health=50
 #
 difficulty=3
 #
-# #Health pottion magically generates health
-health_potion=int(random.randint(25,50)/difficulty)
+# #Health potion magically generates health
+health_potion=random.randint(25,50)/difficulty
 #
 # #Once person drinks magic potion, his health gets changed
 health= health + health_potion

@@ -1,28 +1,33 @@
 # #Checkout to see indexing -http://pythontutor.com/live.html#mode=edit
-# my_list=["paper","pen","pencil"]
-# # print(my_list)
-# # first_element=my_list[0]
-# # print("My first element is "+ first_element)
-# # len_list=len(my_list)
-# # last_element=my_list[len_list -1]
-# # print(last_element)
-# #Adding new element
-# new_element="eraser"
-# my_list.append(new_element)
+my_list=["pen","paper","pencil","eraser"]
+len_list=len(my_list)
+print(len_list)
+
+# first_element=my_list[0]
+# print(first_element)
+# len_list=len(my_list)
+# last_element=my_list[len_list-1]
+# print(last_element)
+
+# thisList=["apple","orange","banana","cherry"]
+# len_list=len(thisList)
+# print("My last element is " + thisList[len_list-1])
+# my_list=["pencil","pen","eraser"]
+# # #Adding new element
+# my_list.append("scale")
 # print(my_list)
 #
-# my_list.remove("pencil")
+# my_list.remove("pen")
 # print(my_list)
 #
-# my_list.pop()
-# print(my_list)
-#
-# thislist = ["apple", "banana", "cherry"]
-# if "apple" in thislist:
-#     print("I am apple")
-# else:
-#     print("I am not apple")
-#
+my_list.pop()
+print(my_list)
+# #
+if "scale" in my_list:
+    print("scale in the list")
+else:
+    print("scale not in the list")
+
 # my_empty_list=[]
 # my_empty_list.append("anu")
 # print(my_empty_list)
@@ -77,7 +82,7 @@
 #     print("what is ")
 #
 # # #splitting string to list
-student_grade=input("enter number of 4 students separated by ,")
-print(student_grade)
-student_grade_list=student_grade.split(",")
-print(student_grade_list)
+# student_grade=input("enter number of 4 students separated by ,")
+# print(student_grade)
+# student_grade_list=student_grade.split(",")
+# print(student_grade_list)
