@@ -1,6 +1,9 @@
-board = ["  " for i in range(9)]
+board=[]
+for i in range(1,10):
+    board.append(" ")
 
-#
+# print(board)
+
 def print_board():
     row1 = "| {} | {} | {} |".format(board[0], board[1], board[2])
     row2 = "| {} | {} | {} |".format(board[3], board[4], board[5])
@@ -11,7 +14,6 @@ def print_board():
     print(row2)
     print(row3)
     print()
-
 
 
 def player_move(icon):
@@ -28,9 +30,9 @@ def player_move(icon):
         print("That space is taken!")
 # print_board()
 # player_move('X')
-
 #
-#
+# #
+# #
 def is_victory(icon):
     if (board[0] == icon and board[1] == icon and board[2] == icon) or \
             (board[3] == icon and board[4] == icon and board[5] == icon) or \
@@ -43,33 +45,29 @@ def is_victory(icon):
         return True
     else:
         return False
-
-def is_draw():
-    if "  " not in board:
-        return True
-    else:
-        return False
-
-while True:
-    print_board()
-    player_move("X")
-    print_board()
-    if is_victory("X"):
-        print("X Wins! Congratulations!")
-        break
-    elif is_draw():
-        print("Its a draw!")
-        break
-    player_move("O")
-    if is_victory("O"):
-        print_board()
-        print("O Wins! Congratulations!")
-        break
-    elif is_draw():
-        print("Its a draw!")
-        break
-# #
-# #
-# #
-# #
-# #
+#
+# def is_draw():
+#     if "  " not in board:
+#         return True
+#     else:
+#         return False
+#
+# while True:
+#     print_board()
+#     player_move("X")
+#     print_board()
+#     if is_victory("X"):
+#         print("X Wins! Congratulations!")
+#         break
+#     elif is_draw():
+#         print("Its a draw!")
+#         break
+#     player_move("O")
+#     if is_victory("O"):
+#         print_board()
+#         print("O Wins! Congratulations!")
+#         break
+#     elif is_draw():
+#         print("Its a draw!")
+#         break
+#

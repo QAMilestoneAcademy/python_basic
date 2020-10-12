@@ -1,20 +1,14 @@
 # block of organized & reusable code action or give some results
 # Function definition with parameters
 
-def add(x,y):
-     x+y
-# #calling function with actual values
-
-print(add(100,500))
-
-#If we print this we will not get any output as function is not returning any value.For that we need to add return keyword
-#
 # def add(x,y):
-#     return x+y
+#     sum=x+y
+#     return x+sum
 #
-# print(add(23,56))
-# sum=add(5,10)
-# print(sum)
+# # #calling function with actual values
+# my_add=add(7,8)+7
+# print(my_add)
+
 # def multiply(x,y):
 #      return x*y
 # my_multiple=multiply(13,14)
@@ -43,16 +37,20 @@ print(add(100,500))
 #
 
 # #reverse a word
-word="pen"
+word="anu"
 rev_word=word[::-1]
 print(rev_word)
 
-# #define a function- take any word & reverse it
-def rev(word):
-    return word[::-1]
-# #
-x=rev("python")
-print(x)
-#
-# y=rev("srijan")
-# print(y)
+# name="anu"
+# print("hello" +name)
+def hello_name(any_name):
+    print("hello "+any_name)
+hello_name("anu")
+
+
+# # #define a function- take any word & reverse it
+# def rev(word):
+#     return word[::-1]
+# # #
+# x=rev("python")
+# print(x)

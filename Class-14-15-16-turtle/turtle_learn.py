@@ -1,22 +1,47 @@
-#import turtle -inbuilt library
 import turtle
 s=turtle.Screen()
-s.bgcolor("lightblue")
+s.bgcolor("cyan")
 t=turtle.Turtle()
-t.pen(pencolor="red", fillcolor="yellow", pensize=10, speed=9)
-# t.fd(100)
-# t.rt(90)
-# t.fd(100)
-# t.rt(90)
-# t.fd(100)
-# t.rt(90)
-# t.fd(100)
-# t.rt(90)
-for i in range(0,4):
-    t.fd(100)
-    t.rt(90)
-
+t.pencolor("yellow")
+t.pensize(10)
+t.fillcolor("purple")
+t.begin_fill()
+for i in range(50,200,50):
+ t.circle(i)
+t.end_fill()
 s.exitonclick()
+# t.fillcolor("purple")
+# t.begin_fill()
+# for i in range(0,4):
+#     t.fd(100)
+#     t.rt(90)
+# t.end_fill()
+s.exitonclick()
+# t.pen(pencolor="red", fillcolor="yellow", pensize=10, speed=9)
+
+# t.pencolor("red")
+# t.pensize(10)
+# t.speed(9)
+# t.begin_fill()
+# for i in range(0,4):
+#     t.fd(100)
+#     t.rt(90)
+# t.end_fill()
+# s.exitonclick()
+
+# t.fd(100)
+# t.rt(90)
+# t.fd(100)
+# t.rt(90)
+# t.fd(100)
+# t.rt(90)
+# t.fd(100)
+# t.rt(90)
+# for i in range(0,4):
+#     t.fd(100)
+#     t.rt(90)
+#
+# s.exitonclick()
 # t.fd(100)
 # t.rt(90)
 # t.fd(100)
@@ -98,3 +123,4 @@ s.exitonclick()
 # time.sleep(2)
 #
 # t.done()
+s.exitonclick()
