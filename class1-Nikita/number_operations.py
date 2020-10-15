@@ -1,7 +1,0 @@
-#print("add operation",5+3)
-print("subtract operation",5-3)
-print("multiply operation",5*3)
-print("divide operation",5/3)
-print("add operation",5//3)
-print("remainder operation",5%3)
-print("square operation",5**2)
