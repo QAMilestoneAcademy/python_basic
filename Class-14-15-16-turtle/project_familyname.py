@@ -1,10 +1,12 @@
 import turtle
 s=turtle.Screen()
 t=turtle.Turtle()
-t.speed(6)
 s.bgcolor("white")
+t.speed(9)
+
 colors = ["red", "yellow", "blue", "green", "orange",
         "purple", "white", "brown", "gray", "pink" ]
+
 family = []
 
 name = turtle.textinput("My family",
@@ -23,6 +25,6 @@ for x in range(70):
     t.pendown()
     t.write(family[x%len(family)], font = ("Arial", int((x+8)/4), "bold") )
     t.left(360/len(family)+2)
-#
+
 s.exitonclick()
 # #

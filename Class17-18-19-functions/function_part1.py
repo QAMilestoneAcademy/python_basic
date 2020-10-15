@@ -1,56 +1,33 @@
-# block of organized & reusable code action or give some results
-# Function definition with parameters
+#a,b parameters
+def add(a,b):
+    sum=a+b
+    return sum
 
-# def add(x,y):
-#     sum=x+y
-#     return x+sum
-#
-# # #calling function with actual values
-# my_add=add(7,8)+7
-# print(my_add)
+#arguments
+my_sum=add(100,300)
+print(my_sum+50)
 
-# def multiply(x,y):
-#      return x*y
-# my_multiple=multiply(13,14)
-# print(multiply(13,14))
-# print(my_multiple)
-# #
-#return is not same as printing
+def multiply(x,y):
+    multiple=x*y
+    return multiple
 
-#
-# def add(x,y):
-#     return x+y
+my_multiple=multiply(13,14)
+print(my_multiple)
 
-# def add(x,y):
-#     print(x+y)
-# #
-# answer=add(100,10)
-# print(answer)
-# #It will return none
-# print(type(answer))
+#action based function
+def greetings(daytime,name):
+        print("Good {} {} .How are you today!".format(daytime,name))
 
-# #another example
-# a=print("hello")
-# print(type(a))
+greetings("afternoon","Anu")
+greetings("morning","Srijan")
 
-# ##Excercise- Create a function to mutiply 2 numbers & return the answer
-#
-
-# #reverse a word
-word="anu"
-rev_word=word[::-1]
+my_word="Pen"
+rev_word=my_word[::-1]
 print(rev_word)
 
-# name="anu"
-# print("hello" +name)
-def hello_name(any_name):
-    print("hello "+any_name)
-hello_name("anu")
+def rev_word(word):
+    my_rev_word = word[::-1]
+    return my_rev_word
 
+print(rev_word("abcdefghijk"))
 
-# # #define a function- take any word & reverse it
-# def rev(word):
-#     return word[::-1]
-# # #
-# x=rev("python")
-# print(x)
