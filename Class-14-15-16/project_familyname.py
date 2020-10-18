@@ -27,4 +27,4 @@ for x in range(70):
     t.left(360/len(family)+2)
 
 s.exitonclick()
-# #
+

@@ -1,13 +1,18 @@
-print("Input lengths of the triangle sides: ")
-x = int(input("x: "))
-y = int(input("y: "))
-z = int(input("z: "))
-if x+y>z and y+z>x and x+z>y:
-    if x==y and y==z and z==x:
-        print("Triangle is an equilateral triangle")
-    elif x==y or y==z or z==x:
-        print("Triangle is an isoceles triangle")
-    else:
-        print("Triangle is a scalene triangle")
+num1 = int(input("Enter num1: "))
+num2 = int(input("Enter num2: "))
+math_operation = input("Enter operation between - add, multiply, divide, subtract,remainder, quotient:\t ")
+
+if math_operation =="add":
+    print(num1 + num2)
+elif math_operation=="multiply":
+    print(num1*num2)
+elif math_operation=="diff" :
+    print(num1 - num2)
+elif math_operation=="divide":
+    print(num1/num2)
+elif math_operation=="remainder":
+    print(num1%num2)
+elif math_operation=="quotient":
+    print(num1//num2)
 else:
-    print("This will not create a triangle")
+    print("please enter correct option.bye!")

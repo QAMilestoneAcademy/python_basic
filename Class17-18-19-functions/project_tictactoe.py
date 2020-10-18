@@ -28,11 +28,7 @@ def player_move(icon):
     else:
         print()
         print("That space is taken!")
-# print_board()
-# player_move('X')
-#
-# #
-# #
+
 def is_victory(icon):
     if (board[0] == icon and board[1] == icon and board[2] == icon) or \
             (board[3] == icon and board[4] == icon and board[5] == icon) or \
@@ -45,29 +41,29 @@ def is_victory(icon):
         return True
     else:
         return False
-#
-# def is_draw():
-#     if "  " not in board:
-#         return True
-#     else:
-#         return False
-#
-# while True:
-#     print_board()
-#     player_move("X")
-#     print_board()
-#     if is_victory("X"):
-#         print("X Wins! Congratulations!")
-#         break
-#     elif is_draw():
-#         print("Its a draw!")
-#         break
-#     player_move("O")
-#     if is_victory("O"):
-#         print_board()
-#         print("O Wins! Congratulations!")
-#         break
-#     elif is_draw():
-#         print("Its a draw!")
-#         break
-#
+
+def is_draw():
+    if "  " not in board:
+        return True
+    else:
+        return False
+
+while True:
+    print_board()
+    player_move("X")
+    print_board()
+    if is_victory("X"):
+        print("X Wins! Congratulations!")
+        break
+    elif is_draw():
+        print("Its a draw!")
+        break
+    player_move("O")
+    if is_victory("O"):
+        print_board()
+        print("O Wins! Congratulations!")
+        break
+    elif is_draw():
+        print("Its a draw!")
+        break
+

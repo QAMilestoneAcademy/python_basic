@@ -3,7 +3,7 @@ x = int(input("x: "))
 y = int(input("y: "))
 z = int(input("z: "))
 
-if x==y and y==z and x==z:
+if x==y and y==z and z==x:
     print("triangle is an equilateral triangle")
 elif x==y or y==z or x==z:
     print("triangle is an isoceles triangle")

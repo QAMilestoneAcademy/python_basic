@@ -67,7 +67,8 @@ def calculate_total_average(studentid):
 # 3. score >= 70 : "C"
 # 4. score >= 60 : "D"
 def assign_letter_grade(score):
-    if score >= 90: return "A"
+    if score >= 90\
+            : return "A"
     elif score >= 80: return "B"
     elif score >= 70: return "C"
     elif score >= 60: return "D"
@@ -75,12 +76,12 @@ def assign_letter_grade(score):
 
 #
 # # Function to calculate the total average marks of the whole class
-# def class_average_is(student_list):
-#     result_list = []
-#     for studentid in student_list:
-#         stud_avg = calculate_total_average(studentid)
-#         result_list.append(stud_avg)
-#         return get_average(result_list)
+def class_average_is(student_list):
+    result_list = []
+    for studentid in student_list:
+        stud_avg = calculate_total_average(studentid)
+        result_list.append(stud_avg)
+        return get_average(result_list)
 
 # Student list consist the name of students
 studentids=[]
@@ -101,9 +102,9 @@ for i in studentids:
 
     print()
 # # Calculate the average of whole class
-# class_av = class_average_is(studentids)
-# print("************************************************")
-# print("Class Average is {}".format(class_av))
-# print("Letter Grade of the class is {} "
-#       .format(assign_letter_grade(class_av)))
-# print("************************************************")
+class_av = class_average_is(studentids)
+print("************************************************")
+print("Class Average is {}".format(class_av))
+print("Letter Grade of the class is {} "
+      .format(assign_letter_grade(class_av)))
+print("************************************************")

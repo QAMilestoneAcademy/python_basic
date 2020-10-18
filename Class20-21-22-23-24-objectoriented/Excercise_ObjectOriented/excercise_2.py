@@ -1,4 +1,4 @@
-# Exercise Question 3: Create child class Bus that will inherit all of the variables and
+# Exercise: Create child class Bus that will inherit all of the variables and
 # methods of the Vehicle class
 class Vehicle:
 
@@ -12,4 +12,5 @@ class Bus(Vehicle):
 
 
 School_bus = Bus("School Volvo", 180, 12)
+print(type(School_bus))
 print("Vehicle Name:", School_bus.name, "Speed:", School_bus.max_speed, "Mileage:", School_bus.mileage)
