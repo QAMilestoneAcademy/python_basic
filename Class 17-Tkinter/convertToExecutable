@@ -1,1 +1,8 @@
 pyinstaller --onefile ft2mt.pyw
+
+
+If file has dependencies
+Install- https://sourceforge.net/projects/nsis/
+
+zip the folder
+import in nsis

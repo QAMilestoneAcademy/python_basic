@@ -4,10 +4,11 @@ name="Anu"#string
 name="anu"
 # #concatenation--add two strings
 # print(name)
-# print("hello " + "anu")
+print("hello " + "anu")
 # print("hello " +name)
 # 
-# age="10"#string
+age="10"#string
+print("10"+age)
 # print(int(age)+2)
 print("hello\n"+"anu")
 

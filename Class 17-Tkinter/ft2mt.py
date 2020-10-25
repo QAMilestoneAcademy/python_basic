@@ -17,7 +17,6 @@ def clear():
     mt_value.set("")
 
 
-
 #Lable A widget used to display text on the screen
 ft_lbl=Label(window,text="Feet",bg="blue",fg="yellow",width=14)
 ft_lbl.grid(column=0,row=0,padx=15,pady=15)

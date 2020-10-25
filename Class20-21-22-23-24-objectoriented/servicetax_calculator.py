@@ -1,6 +1,7 @@
 from tkinter import Tk,Radiobutton, Button,Label,StringVar,IntVar,Entry
 
 class ServicetaxCalculator():
+
     def __init__(self):
         window = Tk()
         window.title("Tip Calculator App")
@@ -58,7 +59,6 @@ class ServicetaxCalculator():
         percentage = self.tip_percent.get()  / 100
         tip_amount_entry = pre_tip * percentage
         self.tip.set(tip_amount_entry)
-
         final_bill = pre_tip + tip_amount_entry
         self.total_cost.set(final_bill)
 

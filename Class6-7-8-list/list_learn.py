@@ -1,10 +1,23 @@
 # #Checkout to see indexing -http://pythontutor.com/live.html#mode=edit
 my_list=["pen","paper","pencil","eraser"]
+
+first_element=my_list[0]
+print(first_element)
+
 len_list=len(my_list)
 print(len_list)
 
-# first_element=my_list[0]
-# print(first_element)
+print(my_list[len(my_list)-1])
+
+my_list.append("scale")
+print(my_list)
+
+my_list.remove("pencil")
+print(my_list)
+
+my_list.pop()
+print(my_list)
+
 # len_list=len(my_list)
 # last_element=my_list[len_list-1]
 # print(last_element)
@@ -20,13 +33,13 @@ print(len_list)
 # my_list.remove("pen")
 # print(my_list)
 #
-my_list.pop()
-print(my_list)
-# #
-if "scale" in my_list:
-    print("scale in the list")
-else:
-    print("scale not in the list")
+# my_list.pop()
+# print(my_list)
+# # #
+# if "scale" in my_list:
+#     print("scale in the list")
+# else:
+#     print("scale not in the list")
 
 # my_empty_list=[]
 # my_empty_list.append("anu")

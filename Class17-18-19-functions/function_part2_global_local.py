@@ -1,14 +1,12 @@
 # #Global -Local -two types- only functions can create local scope
+  #global
 a = 100  #global
-
 def f1():
     global a
-    print(a+50)
-
-def f2():
-    a=20 #local
     print(a)
-
+def f2():
+    a=20
+    print(a)
 f1()
 f2()
 

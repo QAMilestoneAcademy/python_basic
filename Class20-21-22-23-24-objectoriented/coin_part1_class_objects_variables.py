@@ -6,13 +6,23 @@ class Pound:
     thicknes = 3.15  # in mm
     heads = True
 
-
 coin1=Pound()
+# print(type(coin1))
 print(coin1.color)
-print(coin1.value)
 coin1.color="green"
 print(coin1.color)
 
 coin2=Pound()
 print(coin2.color)
-print(coin2.value)
+
+
+#
+# coin1=Pound()
+# print(coin1.color)
+# print(coin1.value)
+# coin1.color="green"
+# print(coin1.color)
+#
+# coin2=Pound()
+# print(coin2.color)
+# print(coin2.value)

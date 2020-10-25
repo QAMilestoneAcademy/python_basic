@@ -9,8 +9,12 @@
 # Employee Ben salary is: 9000
 # Employee Ben salary is: 9000
 
+#parameters-placeholders
+def show_employee(name,salary):
+    print("Employee {} salary is {}".format(name, salary))
+
 def showEmployee(name, salary=9000):
     print("Employee", name, "salary is:", salary)
 
-showEmployee("Ben", 11000)
-showEmployee("Ben")
+showEmployee("Ben", 11000)#real-arguments
+# showEmployee("Ben")

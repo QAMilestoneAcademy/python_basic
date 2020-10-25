@@ -3,6 +3,7 @@ import random
 class Pound:
     #self is a parameter which refers to a specific instance of the class.For example if I create coin1 -self will be coin1 & similarly
     #defining constructor.It does not return anything.Helps to set up initial properties of an object
+
     def __init__(self,rare=False):
         self.rare=rare
         if self.rare:
@@ -29,7 +30,7 @@ class Pound:
     def __del__(self):
         print("coin spent")
 
-coin1=Pound()
+coin1=Pound(True)
 print(coin1.color)
 coin1.rust()
 print(coin1.color)
@@ -39,7 +40,7 @@ print(coin1.heads)
 coin1.flip()
 print(coin1.heads)
 coin2=Pound(rare=True)
-
+#
 
 #
 # coin1=Pound(rare=True)
