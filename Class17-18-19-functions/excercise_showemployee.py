@@ -13,8 +13,9 @@
 def show_employee(name,salary):
     print("Employee {} salary is {}".format(name, salary))
 
-def showEmployee(name, salary=9000):
-    print("Employee", name, "salary is:", salary)
+# def showEmployee(name, salary=9000):
+#     print("Employee", name, "salary is:", salary)
 
-showEmployee("Ben", 11000)#real-arguments
-# showEmployee("Ben")
+show_employee("Ben", 11000)
+#real-arguments
+show_employee("anu", 10000)

@@ -1,13 +1,19 @@
-# name=input("What is your name? ")
-# print("Hello "+name)
-#
-# school=input("Which school you go to? ")
-# print("I go to  "+school)
+
+name=input("What is your name? ")
+print("Hello "+name)
+
+school=input("Which school you go to? ")
+print("I go to  "+school)
 
 age=input("How old are you?")
-# print("My age is  "+age)
-# info=name+" "+school +" "+age
-# print(info)
+print("My age is  "+age)
+
+info=name+" "+school +" "+age
+print(info)
+
+#f string
+print(f"Hello my name is {name}.My age is {age}.I go to {school}")
+
 
 print("age after 10 yrs ", int(age)+10)
 

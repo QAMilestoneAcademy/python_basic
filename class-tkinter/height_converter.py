@@ -6,6 +6,9 @@ window.configure(background="light green")
 window.geometry("320x220")
 window.resizable(width=False,height=False)
 
+ft_lbl = Label(window,text="Feet",bg="purple",fg="white",width=14)
+ft_lbl.grid(column=0,row=0,padx=15,pady=15)
+
 def convert():
     value = float(ft_entry.get())
     meter = value * 0.3048
