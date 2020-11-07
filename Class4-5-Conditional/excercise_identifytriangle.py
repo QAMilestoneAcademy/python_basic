@@ -3,12 +3,15 @@ x = int(input("x: "))
 y = int(input("y: "))
 z = int(input("z: "))
 
-if x==y and y==z and z==x:
-    print("triangle is an equilateral triangle")
-elif x==y or y==z or x==z:
-    print("triangle is an isoceles triangle")
+if x+y>z and y+z>x and z+x>y:
+    if x==y==z:
+        print("triangle is an equilateral triangle")
+    elif x==y or y==z or x==z:
+        print("triangle is an isoceles triangle")
+    else:
+        print("triangle is scalene triangle")
 else:
-    print("triangle is scalene triangle")
+    print("enter correct sides")
 
 
 #

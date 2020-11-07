@@ -48,8 +48,8 @@ while run:
             jumpCount = 10
             isJump = False
 
-    win.fill((0, 0, 0))
-    pygame.draw.rect(win, (255, 0, 0), (x, y, width, height))
+    win.fill((255,128, 128))
+    pygame.draw.rect(win, (0, 255, 255), (x, y, width, height))
     pygame.display.update()
 
 pygame.quit()

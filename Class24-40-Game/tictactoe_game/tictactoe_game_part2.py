@@ -33,17 +33,14 @@ while run:
 
             if first.collidepoint(pos):
                 pygame.draw.rect(win, (255, 0, 0), (50, 50, 100, 100))
-
                 pygame.draw.circle(win, (0, 255, 0), (100, 100), 50)
 
             if second.collidepoint(pos):
                 pygame.draw.rect(win, (255, 0, 0), (225, 50, 100, 100))
-
                 pygame.draw.circle(win, (0, 255, 0), (275, 100), 50)
 
             if third.collidepoint(pos):
                 pygame.draw.rect(win, (255, 0, 0), (400, 50, 100, 100))
-
                 pygame.draw.circle(win, (0, 255, 0), (450, 100), 50)
 
             if fourth.collidepoint(pos):

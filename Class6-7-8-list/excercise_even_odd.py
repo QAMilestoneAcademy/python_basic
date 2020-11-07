@@ -14,8 +14,6 @@ n=int(input("Enter number of elements:"))
 for i in range(1,n+1):
     b=int(input("Enter number:"))
     print(b)
-
-
     a.append(b)
 print(a)
 even=[]

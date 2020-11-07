@@ -4,7 +4,7 @@ name = input("What is your name? ")
 
 name=name.strip().capitalize()
 print(name)
-#
+
 if name in known_users:
     print("Hello {}.How are you".format(name))
     stay=input("Would you like to stay in the list-Yes/No: ")

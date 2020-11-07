@@ -37,13 +37,10 @@ ninth_open = True
 # Main Loop
 run = True
 while run:
-
     # Refresh Time
     pygame.time.delay(100)
-
     # Pygame Events
     for event in pygame.event.get():
-
         # Quit Event
         if event.type == pygame.QUIT:
             run = False

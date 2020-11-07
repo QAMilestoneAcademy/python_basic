@@ -7,6 +7,9 @@ class Vehicle:
         self.max_speed = max_speed
         self.mileage = mileage
 
+class Car(Vehicle):
+    pass
+
 class Bus(Vehicle):
     pass
 
@@ -14,3 +17,4 @@ class Bus(Vehicle):
 School_bus = Bus("School Volvo", 180, 12)
 print(type(School_bus))
 print("Vehicle Name:", School_bus.name, "Speed:", School_bus.max_speed, "Mileage:", School_bus.mileage)
+
